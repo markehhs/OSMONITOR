@@ -8,8 +8,6 @@ from dotenv import load_dotenv
 
 ##
 ##
-##test-addr = 0xE7Ba1d3fe20C2e8C8653EBA898da1629cb3BdAE4
-##main-addr = 0xE3794CaAC0858Cc432d2F2ae6b4C6C1ae4a290A1
 
 try:    
     load_dotenv()
@@ -151,13 +149,7 @@ def main():
                 print("No sales found.")
         cvar += 1
     
-    ##monitor("0xe3794caac0858cc432d2f2ae6b4c6c1ae4a290a1")
     
-    
-
-    
-
-##monitor("0xE3794CaAC0858Cc432d2F2ae6b4C6C1ae4a290A1", 1440)
 
 main()
 
